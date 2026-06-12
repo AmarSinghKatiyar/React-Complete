@@ -10,7 +10,6 @@ const navbar = () => {
           <h1>Home</h1>
           <h1>Contact</h1>
           <h1>Profile</h1>
-          <h1>Help</h1>
         </div>
     </div>
   )
