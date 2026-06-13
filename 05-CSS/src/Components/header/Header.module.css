@@ -1,0 +1,12 @@
+/* Header.module.css */
+.head {
+  background-color: lightblue;
+  padding: 10px;
+  font-size: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.head button{
+    font-size: 50px;
+}
