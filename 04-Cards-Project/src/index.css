@@ -1,0 +1,117 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,body{
+  height: 100%;
+  width: 100%;
+}
+body{
+  background-color: #111;
+}
+
+.parent{
+  padding: 20px;
+  margin: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.card{
+  height: 330px;
+  width: 280px;
+  background-color: #fff;
+  border-radius: 7px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.top{
+  height: 50px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+
+.top img{
+  height: 40px;
+  border-radius: 50%;
+  /* background-color: #111; */
+}
+.right{
+  display: flex;
+  padding: 3px;
+  border: 2px solid black;
+  border-radius: 7px;
+}
+.top button{
+  border: none;
+  font-size: 13px;
+}
+
+.top button:hover{
+  border: none;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.top svg{
+  height: 20px;
+  
+}
+
+.center h3{
+  font-size: 35px;
+}
+
+.center span{
+  font-size: 18px;
+  color: gray;
+}
+
+.tag{
+  display: flex;
+  gap: 3px;
+}
+
+.tag h4{
+  background-color: rgb(206, 206, 206);
+  border-radius:5px;
+  display: flex;
+  justify-content: center;
+  padding: 3px;
+}
+
+.bottom{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* gap: 90px; */
+}
+
+.bleft p{
+  color:gray ;
+}
+
+.bright button{
+  background-color: #111;
+  color: #fff;
+  border-radius: 7px;
+  padding: 7px;
+}
+
+.bright button:hover{
+  background-color: #515151;
+  color: #fff;
+  border-radius: 7px;
+  padding: 7px;
+  cursor: pointer;
+}
